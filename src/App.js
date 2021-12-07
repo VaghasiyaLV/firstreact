@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const emp =
   [
     {
       name: "amit",
@@ -41,7 +42,7 @@ function App() {
   ]
 
 const totalexp =
-  emp.filter((e,i)=>status === true)
+  emp.filter((e,i)=> e.status === true)
   .map((e,i)=> e.salary + e.bonus)
   .reduce((acc,e)=>acc + e ,0)
 
