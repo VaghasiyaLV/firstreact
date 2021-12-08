@@ -14,6 +14,7 @@ function App() {
        <div key = {i}>
          <p>{i+1}</p>
          <p>{a}</p>
+         
        </div>
      )
    })
