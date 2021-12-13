@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState, usestate } from 'react';
 
-function Country(props) {
+function Country(Props) {
+    const [country, setCountry] = useState('India');
     return (
         <div>
-            <h1>My Country is India.</h1>
+            <h1>My Country is {country}.</h1>
+            <button onClick={() => setCountry('US')}>change</button>
         </div>
     );
 }
