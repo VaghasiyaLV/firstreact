@@ -1,6 +1,6 @@
 
 import './App.css';
-import Country from './Containers/Country';
+// import Country from './Containers/Country';
 import State from './Containers/State';
 
 
@@ -8,12 +8,14 @@ import State from './Containers/State';
 function App() {
   return (
     <>
-      <Country />
+      {/* <Country /> */}
       <State />
     </>
   );
 
 }
+
+
 
 export default App;
 
