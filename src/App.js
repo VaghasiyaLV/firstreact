@@ -1,15 +1,12 @@
 
 import './App.css';
-// import Country from './Containers/Country';
-import State from './Containers/State';
-
+import Timer from './Containers/Timer';
 
 
 function App() {
   return (
     <>
-      {/* <Country /> */}
-      <State />
+     <Timer />
     </>
   );
 
