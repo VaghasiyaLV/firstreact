@@ -1,12 +1,14 @@
 
 import './App.css';
-import Timer from './Containers/Timer';
+import Timerfun from './Containers/Timerfun';
+// import Timer from './Containers/Timer';
 
 
 function App() {
   return (
     <>
-     <Timer />
+     <Timerfun />
+     {/* <Timer /> */}
     </>
   );
 
